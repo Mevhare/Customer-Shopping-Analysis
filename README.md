@@ -7,16 +7,16 @@ Welcome to the shopping world of Istanbul! Our dataset contains shopping informa
 ### Data
 Attribute Information:
 
-invoice_no: Invoice number. Nominal. A combination of the letter 'I' and a 6-digit integer uniquely assigned to each operation.
-customer_id: Customer number. Nominal. A combination of the letter 'C' and a 6-digit integer uniquely assigned to each operation.
-gender: String variable of the customer's gender.
-age: Positive Integer variable of the customers age.
-category: String variable of the category of the purchased product.
-quantity: The quantities of each product (item) per transaction. Numeric.
-price: Unit price. Numeric. Product price per unit in Turkish Liras (TL).
-payment_method: String variable of the payment method (cash, credit card or debit card) used for the transaction.
-invoice_date: Invoice date. The day when a transaction was generated.
-shopping_mall: String variable of the name of the shopping mall where the transaction was made.
+- invoice_no: Invoice number. Nominal. A combination of the letter 'I' and a 6-digit integer uniquely assigned to each operation.
+- customer_id: Customer number. Nominal. A combination of the letter 'C' and a 6-digit integer uniquely assigned to each operation.
+- gender: String variable of the customer's gender.
+- age: Positive Integer variable of the customers age.
+- category: String variable of the category of the purchased product.
+- quantity: The quantities of each product (item) per transaction. Numeric.
+- price: Unit price. Numeric. Product price per unit in Turkish Liras (TL).
+- payment_method: String variable of the payment method (cash, credit card or debit card) used for the transaction.
+- invoice_date: Invoice date. The day when a transaction was generated.
+- shopping_mall: String variable of the name of the shopping mall where the transaction was made.
 
 ## Data Inspection and Cleaning
 Upon inspection of the dataset, the following are the observations and data cleaning processes carried out on each column;
@@ -28,5 +28,5 @@ Upon inspection of the dataset, the following are the observations and data clea
 6. Quantity and Price were both positive numeric columns.
 7. Payment method consists of cash,credit card or debit card.
 8. Invoice date had inconsistent formating which was corrected to be in D/MM/YYYY format. Transactions ranged from January 2020 to December 2023.
-9. There are only 10 malls include in the shopping_malls column.
+9. There are only 10 malls included in the shopping_malls column.
 
