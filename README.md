@@ -1,5 +1,5 @@
 # Customer Shopping Analysis
-This is an exploratory data analysis on shopping data across malls in Instabul gotten from kaggle. The dataset can be downloaded from [here](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset).
+This is an exploratory data analysis on shopping data across malls in Instabul gotten from kaggle. More information and the data can be downloaded from [here](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset).
 
 ## Introduction
 Welcome to the shopping world of Istanbul! Our dataset contains shopping information from 10 different shopping malls between 2021 and 2023. We have gathered data from various age groups and genders to provide a comprehensive view of shopping habits in Istanbul. The dataset includes essential information such as invoice numbers, customer IDs, age, gender, payment methods, product categories, quantity, price, order dates, and shopping mall locations. We hope that this dataset will serve as a valuable resource for researchers, data analysts, and machine learning enthusiasts who want to gain insights into shopping trends and patterns in Istanbul. Explore the dataset and discover the fascinating world of Istanbul shopping!
@@ -32,12 +32,15 @@ Upon inspection of the dataset, the following are the observations and data clea
 
 ## Exploratory Data Analysis
 A thorough examination of the data was conducted by utilizing pivot tables and reports to answer a wide range of inquiries. These reports were instrumental in developing an interactive dashboard that enables easy access to valuable insights on sales patterns, product performance, mall performance, and essential metrics such as total sales, number of orders, quantity sold, and average order value (AOV), among others.
-Insert picture here
+Below is an image of the dashboard;
+
+![Dashboard](Images/Dashboard.png)
+
 Some of the insights from the data include;
-- The top two selling malls, Mall of Istanbul and Kanyon, each generating over 6 million Liras per year, followed by Metrocity, generating over 4.5 million Liras per year. Metropol AVM and Istinye Park generated approximately 3 million Liras per year, while the remaining malls produced over 1.5 million Liras per year.
+- The top two selling malls are Mall of Istanbul and Kanyon, each generating over 6 million Liras per year, followed by Metrocity, generating over 4.5 million Liras per year. Metropol AVM and Istinye Park generated approximately 3 million Liras per year, while the remaining malls produced over 1.5 million Liras per year.
 - The most sold items were clothing, followed by cosmetics and food & beverages. 
 - Technology products had the highest AOV of 3,156.94 Liras, indicating that they are the most expensive, followed by shoes (1,807.39 Liras) and clothing (901.08 Liras).
--  Food & Beverages had the lowest AOV of 15.67 Liras followed by books with 45.57 liras and souvenoirs with 34.89 liras.
+- Food & Beverages had the lowest AOV of 15.67 Liras followed by souvenoirs with 34.89 liras and books with 45.57 liras.
 - Females made 60% of shoppers compared to males which made 40% of shoppers.
 - Majority of shoppers were old-aged adults (46%) followed by middle-aged adults (29%) and young adults (25%).
-- majority of transactions were paid for in cash (45%), followed by credit cards (35%), and then debit cards (20%).
+- Majority of transactions were paid for in cash (45%), followed by credit cards (35%), and then debit cards (20%).
