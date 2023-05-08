@@ -27,7 +27,7 @@ Upon inspection of the dataset, the following are the observations and data clea
 5. There were 8 product categories which are books,clothing, cosmetics, food & beverages, shoes, souvenir, technology and toys.
 6. Quantity and Price were both positive numeric columns.
 7. Payment method consists of cash,credit card or debit card.
-8. Invoice date had inconsistent formating which was corrected to be in D/MM/YYYY format. Transactions ranged from January 2020 to December 2023.
+8. Invoice date had inconsistent formating which was corrected to be in D/MM/YYYY format. Transactions ranged from January 2020 to March 2023.
 9. There are only 10 malls included in the shopping_malls column.
 
 ## Exploratory Data Analysis
