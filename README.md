@@ -33,11 +33,12 @@ Upon inspection of the dataset, the following are the observations and data clea
 ## Exploratory Data Analysis
 A thorough examination of the data was conducted by utilizing pivot tables and reports to answer a wide range of inquiries. These reports were instrumental in developing an interactive dashboard that enables easy access to valuable insights on sales patterns, product performance, mall performance, and essential metrics such as total sales, number of orders, quantity sold, and average order value (AOV), among others.
 
- Below is an image of the dashboard created with Excel;
+ Below is an image of the dashboard created using Excel;
 ![Dashboard](Images/Dashboard.png)
 
 The excel file can be downloaded using this [link](https://github.com/Mevhare/Customer-Shopping-Analysis/blob/main/customer_shopping_dashboard.xlsx).
-Some of the insights from the data include;
+
+ Some of the insights from the data include;
 - The top two selling malls are Mall of Istanbul and Kanyon, each generating over 6 million Liras per year, followed by Metrocity, generating over 4.5 million Liras per year. Metropol AVM and Istinye Park generated approximately 3 million Liras per year, while the remaining malls produced over 1.5 million Liras per year.
 - The most sold items were clothing, followed by cosmetics and food & beverages. 
 - Technology products had the highest AOV of 3,156.94 Liras, indicating that they are the most expensive, followed by shoes (1,807.39 Liras) and clothing (901.08 Liras).
